@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://shniu.github.io/"
+baseURL = "https://chaintechinfo.github.io/"
 title = "Shaohan.Niu's Tech Blog"
 languageCode = "zh-CN"
 hasCJKLanguage = true
@@ -100,7 +100,7 @@ uglyURLs = false
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://shniu.github.io/"
+    website = "https://chaintechinfo.github.io/"
     # 推特
     twitter = ""
 
