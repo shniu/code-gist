@@ -84,6 +84,8 @@ default via 10.0.2.2 dev eth0 proto dhcp src 10.0.2.15 metric 1024
 
 ## ip
 
+https://juejin.cn/post/6844903844267180039#heading-6
+
 https://www.softprayog.in/tutorials/ip-command-in-linux
 
 https://phoenixnap.com/kb/linux-ip-command-examples

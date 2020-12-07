@@ -28,3 +28,4 @@ tags: ['Cloud Native', 'etcd', 'Consensus']
 [TODO]
 
 - https://segmentfault.com/a/1190000021787055
+- https://xiaoz.co/2020/08/10/etcd-intro/
