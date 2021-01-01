@@ -19,3 +19,6 @@ https://opengers.github.io/openstack/openstack-base-virtual-network-devices-brid
 Todo List:
 
 1. Linux TUN / TAP interface 的实现
+
+## Linux 中 TCP 连接建立、通信、释放的全过程
+

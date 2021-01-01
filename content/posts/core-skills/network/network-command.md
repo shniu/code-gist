@@ -101,3 +101,49 @@ http://bencane.com/2014/10/13/quick-and-practical-reference-for-tcpdump/
 ## iptables
 
 https://ivanzz1001.github.io/records/post/linuxops/2018/10/17/linux-iptables
+
+## 创建 Bridge
+
+```shell
+# 创建网桥
+sudo brctl addbr br0
+# 开启网桥
+sudo ifconfig br0 up
+# 查看网桥
+ifconfig br0
+
+# 创建两个 tap 接口
+sudo ip tuntap add dev tap0 mod tap
+sudo ip tuntap add dev tap1 mod tap
+
+# 启用
+sudo ifconfig tap0 0.0.0.0 up
+sudo ifconfig tap1 0.0.0.0 up
+
+ifcofnig tap0
+ifcofnig tap1
+
+# 绑定到 Bridge
+sudo brctl addbr br0 tap0
+sudo brctl addbr br0 tap1
+
+# 查看
+$ brctl show
+bridge name	bridge id		STP enabled	interfaces
+br0		8000.36c4ca8fc8e0	no		tap1
+                                    tap0
+
+# 移除
+sudo brctl delif br0 tap0
+sudo brctl delif br0 tap1
+
+# 删除设备
+sudo ip link delete tap0
+sudo ip link delete tap1
+
+sudo ifconfig br0 down
+sudo brctl delbr br0
+
+virbr0-nic 是一个 dummy interface
+```
+

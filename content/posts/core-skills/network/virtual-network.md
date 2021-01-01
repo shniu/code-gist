@@ -6,6 +6,16 @@ tags: ['Network', '虚拟化']
 categories: ['Network', 'Virtual network']
 ---
 
+https://www.nakivo.com/blog/virtualbox-network-setting-guide/
+
+https://www.virtualbox.org/manual/ch06.html
+
+https://github.com/byte-edu/openstack
+
+https://segmentfault.com/a/1190000015418876
+
+https://xiaoz.co/2020/01/08/libvirt-virbr0/
+
 ## 虚拟化
 
 首先，如何理解虚拟化？
